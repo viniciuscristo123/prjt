@@ -36,6 +36,7 @@
         color: var(--verde);
     }
     
+
     .botao {
         font-family: "Crakra Petch", sans-serif;
         background-color: var(--botao-inativo);
@@ -59,6 +60,7 @@
     .botoes {
         display: block;
     }
+
 .botao.ativo{
     background-color:var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
@@ -68,13 +70,11 @@
     background-color:var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
-
 }
 .aba-conteudo.ativo{
     display:block;
 
 }
-
 .aba-conteudo{
     display:none;
 }
@@ -83,12 +83,10 @@
     font-size: 28px;
     text-align: center;
 }
-
 .aba-conteudo-titulo-secundario{
     text-align:center;
     color: var(--verde)
     text-transform  uppercase;
-
 }
 
 .contador{
@@ -96,19 +94,22 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .contador-dígito{
-    padding 0 16px;
+    padding: 0 16px;
     text-align: center;
     min-width: 100px
 }
 
 .contador-digito-texto{
+    font-size: 80px;
+    margin: 0;
+}
+
+.contador-digito-numero{
     color: var(--verde)
     font-size: 20px;
     margin: 0;
 }
-
     @media screen and (min-width: 768px) {
         .botoes {
             display: flex;
